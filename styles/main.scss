@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 33px 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #828282;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+a:hover {
+    color: #070707;
+}
+.header__name {
+    font-family: monospace;
+    font-size: 37px;
+    line-height: 79px;
+    color: #070707;
+
+}
+.header__middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__description {
+    font-family: monospace;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+.header__language {
+    font-family: monospace;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    transform: rotate(-90deg);
+    margin-right: -30px;
+}
+.AboutMe {
+    font-family: Gilroy-Medium;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #070707;
+
+}
+.AboutMe__d{
+    font-family: Gilroy-Medium;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+}
+.AboutMe__desciption p {
+    margin-bottom: 50px;
+}
+.AboutMe__desciption {
+    width: 100%;
+    max-width: 490px;
+    margin: 0 auto;
+    text-align: center;
+}
+.skills__tittle{
+    
+font-family: 'Gilroy-Bold';
+font-size: 34px;
+line-height: 42px;
+text-align: center;
+color: #070707;
+}
+.skills__subtittle{
+font-family: 'Gilroy-Medium';
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #070707;
+}
+.Portfolio{
+font-family: Gilroy-Bold;
+font-size: 34px;
+line-height: 42px;
+text-align: center;
+color: #070707;
+}
+.card__link{
+font-family: Gilroy-Medium;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+text-decoration-line: underline;
+color: #070707;
+}
+.skills__cards {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+} 
+.card__rating{
+    display: flex;
+}
+.star{
+    margin: 15 px;
+}
+.card__name{
+    font-family: Gilroy-Bold;
+font-size: 34px;
+line-height: 42px;
+text-align: center;
+color: #070707;
+}
